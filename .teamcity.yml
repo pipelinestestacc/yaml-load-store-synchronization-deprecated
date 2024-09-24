@@ -21,7 +21,7 @@ jobs:
       - '*.txt'
   JobC:
     name: Job C
-    runs-on: Ubuntu-20.04-Small
+    runs-on: Ubuntu-22.04-Small
     steps:
       - type: script
         script-content: |-
